@@ -1,0 +1,9 @@
+schema_version: 20180708
+name: get-stock
+version: 0.1.0
+runtime: node
+entrypoint: node func.js
+triggers:
+- name: get-stock
+  type: http
+  source: /get-stock
